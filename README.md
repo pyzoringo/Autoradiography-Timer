@@ -27,4 +27,5 @@ threads: blue yellow(2) green red(3) black(5) white
 VI error: LIFA time out  Valve buring b/c the program stuck in trigged states.  
 Reason: may be accessing DigitalWrite.vi and DIgitalRead.vi too many time in short time.  
 Try solution: creating a flag, only access DWvi when Padel status changes.  
-Result: semms OK for now.
+Result: semms OK for now.  
+the LPF on padel needs to be fixed.
