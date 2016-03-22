@@ -28,4 +28,13 @@ VI error: LIFA time out  Valve buring b/c the program stuck in trigged states.
 Reason: may be accessing DigitalWrite.vi and DIgitalRead.vi too many time in short time.  
 Try solution: creating a flag, only access DWvi when Padel status changes.  
 Result: semms OK for now.  
-the LPF on padel needs to be fixed.
+the LPF on padel needs to be fixed.  
+
+3/22/2016  
+1. Valve relay trigger pin change to 6. Since PIN7 keeps going back to LOW in idle.  
+2. LPF was tested. Not quite useful actually. But still, added to PCB board design.    
+
+Error: VI still glitching out (freezes) occasionally. Showing error that ArduinoVI time out.   
+Reason: On 3/21, I suggested that accessing DigitalWrite.vi and DigitalRead.vi too many time in short time, but I only fixed DigitalWrite.vi by adding flag.  
+Try solution: Every DigitalWrite.vi and DigitalRead.vi in the while loop got WaitTime, 5ms for DigitalRead, and 100ms for DIgitalWrite.  
+Result: seems OK for now.  
