@@ -39,5 +39,5 @@ Reason: On 3/21, I suggested that accessing DigitalWrite.vi and DigitalRead.vi t
 Try solution: Every DigitalWrite.vi and DigitalRead.vi in the while loop got WaitTime, 5ms for DigitalRead, and 100ms for DIgitalWrite.  
 Result: seems OK for now.  
 
-3/25/2016
+3/25/2016  
 Adding bunch of waitTimeVI to stable the communication b/w LabVIEW and Arduino
