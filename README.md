@@ -45,3 +45,12 @@ Adding bunch of waitTimeVI to stable the communication b/w LabVIEW and Arduino
 4/01/2016  
 Soldering up PCB  
 
+5/07/2016  
+Switching to LINX; reorganized LabVIEW block diagram;  
+When saving file, create a folder named as current date;(duplicated folder error is neglected)  
+Create a temp.txt when creating file prompt was cancelled;(cancle FileDialog error is neglected)  
+In the txt file, date and time is stamped on top;  
+Automatically open the txt file when it is created;  
+Add sound warning in last 5 second of counting;  
+Syringe is stopped immediately before guillotine;  
+Virtual pedal and start button are greyed out in the process of Arduino initialization.  
