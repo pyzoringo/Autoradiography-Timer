@@ -54,3 +54,5 @@ Automatically open the txt file when it is created;
 Add sound warning in last 5 second of counting;  
 Syringe is stopped immediately before guillotine;  
 Virtual pedal and start button are greyed out in the process of Arduino initialization.  
+Better cosmetic view of front panel.  
+LabVIEW 2014; Windows 7; LINX 3.0.0.189
